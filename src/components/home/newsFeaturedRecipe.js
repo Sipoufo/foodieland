@@ -12,7 +12,7 @@ const NewsFeaturedRecipe = () => {
          *  important:
          *      - scrollbar-none here use for remove scrollbar to 
          */
-        <div className="flex flex-row h-38vw w-screen overflow-x-auto snap-x mt-12 scrollbar-none">
+        <div className="flex flex-row w-screen overflow-x-auto snap-x mt-12 scrollbar-none">
             <FeaturedRecipe />
             <FeaturedRecipe />
             <FeaturedRecipe />
