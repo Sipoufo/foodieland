@@ -4,6 +4,14 @@
         "recipes": "Recettes",
         "blog": "Blog",
         "contact": "Contacte",
-        "aboutUs": "A propos de nous"
+        "aboutUs": "A propos de nous",
+        "chicken": "Poulet",
+        "viewRecipes": "Voir la recette",
+        "breakfast": "petit-déjeuner",
+        "vegan": "Végétalien",
+        "meat": "Viande",
+        "dessert": "Dessert",
+        "lunch": "Déjeuner",
+        "chocolate": "Chocolat"
     }
 }

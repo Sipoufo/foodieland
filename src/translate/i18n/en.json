@@ -4,6 +4,14 @@
         "recipes": "Recipes",
         "blog": "Blog",
         "contact": "Contact",
-        "aboutUs": "About Us"
+        "aboutUs": "About Us",
+        "chicken": "chicken",
+        "viewRecipes": "View Recipes",
+        "breakfast": "breakfast",
+        "vegan": "Vegan",
+        "meat": "Meat",
+        "dessert": "Dessert",
+        "lunch": "Lunch",
+        "chocolate": "Chocolate"
     }
 }
