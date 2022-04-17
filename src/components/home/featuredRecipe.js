@@ -27,7 +27,7 @@ const FeaturedRecipe = () => {
                             <p>Hot Recipes</p>
                         </div>
                     </div>
-                    <div className="text-2xl sm:text-5xl mt-6 font-mono">
+                    <div className="text-2xl sm:text-5xl mt-6 font-bold">
                         Spicy delicious chicken wings
                     </div>
                     <div className="mt-6 text-sm">

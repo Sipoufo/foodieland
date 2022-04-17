@@ -1,14 +1,23 @@
+// Modules
 import React from 'react';
 import { useTranslation } from 'react-i18next';
 
+/**
+ *  This is a presentation on few categories
+ */
 const Categories = () => {
     const {t} = useTranslation();
     return(
+        /**
+         *  Important:
+         *      blur is used blur a picture or a items
+         */
         <div className='flex flex-col w-full'>
             <div className='flex flex-row justify-between items-center w-full'>
                 <span className='text-3xl font-bold'>Categories</span>
                 <a href='/' className='bg-sky-100 p-3 rounded-2xl'>View all categories</a>
             </div>
+            {/* div that contains categories */}
             <div className='flex flex-row mt-5 justify-between'>
                 <div className='flex justify-center'>
                     <img className='hidden lg:flex w-20 absolute z-30 mt-0' src={process.env.PUBLIC_URL + '/images/Categories/breakfast.png'} alt='category' />
@@ -65,10 +74,6 @@ const Categories = () => {
                     </div>
                 </div>
             </div>
-
-            qdsqd
-            <br />
-            qsdsqd
         </div>
     )
 }
