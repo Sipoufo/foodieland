@@ -17,6 +17,7 @@ module.exports = {
         '6xl': '3rem',
       },
       width: {
+        '150': '37.5rem',
         '500': '1500px',
         '70vw' : '84vw',
       },

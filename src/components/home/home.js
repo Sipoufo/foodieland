@@ -2,6 +2,7 @@ import React from 'react';
 import NewsFeaturedRecipe from './newsFeaturedRecipe';
 import Categories from './categories';//few Categories
 import FewRecipes from './fewRecipes';//few recipes
+import OurChef from './ourChef';
 
 /**
  * This function is use for web start point
@@ -18,6 +19,8 @@ const Navbar = () => {
                     <Categories />
                     {/* Content few recipes */}
                     <FewRecipes />
+                    {/* Content part: a chef in own kitchen */}
+                    <OurChef />
                 </div>
             </div>
         </>

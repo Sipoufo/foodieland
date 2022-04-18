@@ -8,6 +8,11 @@ import OneRecipe from './oneRecipe';
 const FewRecipes = () => {
     const {t} = useTranslation();
     return(
+        /**
+         *  Important
+         *      grid: use for dispose items in the grid. I have use it for specify a number of items in the width
+         *      gap: use for add space between grid
+         */
         <div className='flew flew-col mt-24'>
             <div className='w-full flex justify-center items-center'>
                 <span className='font-bold text-2xl'>{t('navbar.simpleAndTastyRecipes')}</span>
