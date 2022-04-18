@@ -1,6 +1,7 @@
 import React from 'react';
 import NewsFeaturedRecipe from './newsFeaturedRecipe';
-import Categories from './categories';
+import Categories from './categories';//few Categories
+import FewRecipes from './fewRecipes';//few recipes
 
 /**
  * This function is use for web start point
@@ -13,7 +14,10 @@ const Navbar = () => {
             <NewsFeaturedRecipe />
             <div className='flex w-full mt-20 justify-center'>
                 <div className='flex flex-col w-10/12'>
+                    {/* content few categories and a button for all categories */}
                     <Categories />
+                    {/* Content few recipes */}
+                    <FewRecipes />
                 </div>
             </div>
         </>

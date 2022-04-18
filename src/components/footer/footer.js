@@ -17,16 +17,20 @@ const Footer = () => {
     const {t} = useTranslation();
 
     return (
+        /**
+         *  Important:
+         *      gap is used for space between items
+         */
         <div className='flex w-full mt-20 justify-center'>
             <div className='flex flex-col w-10/12'>
                 <div className='flex flex-row items-center justify-between w-full'>
                     <div className='flex flex-col justify-start'>
                         {/* Logo */}
                         <img className='w-36 lg:w-32 xl:w-40' src={process.env.PUBLIC_URL + '/images/Logos/logo_sm.png'} alt='logo' />
-                        <span>Lorem ipsum dolor sit amet, consectetuipisicing elit, </span>
+                        <span className='hidden sm:flex'>Lorem ipsum dolor sit amet, consectetuipisicing elit, </span>
                     </div>
                     <div className='flex flex-col w-10/12 lg:w-5/12'>
-                        <ul className='flex justify-between text-sm xl:text-lg'>
+                        <ul className='grid grid-cols-3 sm:flex flex-row gap-4 justify-between text-sm xl:text-lg place-items-center'>
                             <li>{t('navbar.home')}</li>
                             <li>{t('navbar.recipes')}</li>
                             <li>{t('navbar.blog')}</li>

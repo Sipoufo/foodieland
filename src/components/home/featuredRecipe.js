@@ -2,7 +2,7 @@
 import React from "react";
 import { useTranslation } from 'react-i18next'; // Translate module
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'; // Use for add icons
-import { faStopwatch, faUtensils, faCirclePlay } from '@fortawesome/free-solid-svg-icons'
+import { faStopwatch, faUtensils, faCirclePlay } from '@fortawesome/free-solid-svg-icons';//Use for import few icons
 
 /**
  *  This is a one presentation item
@@ -16,7 +16,7 @@ const FeaturedRecipe = () => {
          *      flex-shrink-0 use for ignore a flex parent
          */
         <div className="flex-shrink-0 h-full lg:h-128 snap-center">
-            <div className='bg-sky-100 flex flex-row justify-center w-70vw h-full rounded-6xl overflow-hidden ml-10 snap-start'>
+            <div className='bg-sky-100 flex flex-row justify-center w-70vw h-full rounded-6xl overflow-hidden mx-5 snap-start'>
                 {/* Information about recipe */}
                 <div className='flex flex-col w-11/12 lg:w-1/2 h-full p-8'>
                     <div className='flex flex-row bg-white w-40 p-2 rounded-3xl shadow-lg'>
