@@ -17,7 +17,7 @@ const FewRecipes = () => {
                     <p className='text-sm'>Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqut enim ad minim </p>
                 </div>
             </div>
-            <div className='mt-10 grid grid-cols-2 lg:grid-cols-3 xl:grid-cols-4  gap-8'>
+            <div className='mt-10 grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 sm:gap-8'>
                 <OneRecipe />
                 <OneRecipe />
                 <OneRecipe />

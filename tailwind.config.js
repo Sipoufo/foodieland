@@ -8,6 +8,7 @@ module.exports = {
         'background-full-screen': '#FFFFFF',
       },
       height: {
+        '100': '25rem ',
         '128': '32rem',
         '160': '40rem',
         '38vw': '38vw',
