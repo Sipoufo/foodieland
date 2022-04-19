@@ -15,7 +15,7 @@ const FeaturedRecipe = () => {
          *      snap-center is used for center a active element to screen
          *      flex-shrink-0 use for ignore a flex parent
          */
-        <div className="flex-shrink-0 h-full lg:h-128 snap-center">
+        <div className="flex-shrink-0 h-full lg:h-128 xl:h-160 snap-center">
             <div className='bg-sky-100 flex flex-row justify-center w-70vw h-full rounded-6xl overflow-hidden mx-5 snap-start'>
                 {/* Information about recipe */}
                 <div className='flex flex-col w-11/12 lg:w-1/2 h-full p-8'>
@@ -27,13 +27,13 @@ const FeaturedRecipe = () => {
                             <p>Hot Recipes</p>
                         </div>
                     </div>
-                    <div className="text-2xl sm:text-5xl mt-6 font-bold">
+                    <div className="text-2xl sm:text-5xl xl:text-7xl mt-6 font-bold">
                         Spicy delicious chicken wings
                     </div>
-                    <div className="mt-6 text-sm">
+                    <div className="mt-6 text-sm xl:text-xl">
                         <p>Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqut enim ad minim </p>
                     </div>
-                    <div className="flex flex-row text-sm mt-6 justify-between w-full sm:w-4/6 lg:w-4/5 xl:w-3/5">
+                    <div className="flex flex-row text-sm mt-6 justify-between w-full sm:w-4/6 lg:w-4/5 xl:w-6/12">
                         <div className="flex flex-row bg-gray-300 items-center p-2 rounded-3xl">
                             <FontAwesomeIcon className='text-xs sm:text-lg mx-1 sm:mx-3' icon={faStopwatch} />
                             <div className="text-xs sm:text-sm mr-1 sm:mr-3">
