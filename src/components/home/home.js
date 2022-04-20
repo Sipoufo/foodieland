@@ -8,6 +8,7 @@ import FewRecipes from './fewRecipes';//Few recipes
 import OurChef from './ourChef';//Call chef
 import Instagram from './instagram';//Instagram pages
 import SubscribeCard from './subscribeCard';// Subscription page
+import MoreRecipes from './moreRecipes';
 
 /**
  * This function is use for web start point
@@ -33,7 +34,9 @@ const Navbar = () => {
                 <Instagram />
             </div>
             <div className='flex w-full mt-24 justify-center'>
-                <div className='flex w-10/12'>
+                <div className='flex flex-col w-10/12'>
+                    {/* Content More recipes */}
+                    <MoreRecipes />
                     {/* Content input for subscribe by email */}
                     <SubscribeCard />
                 </div>
