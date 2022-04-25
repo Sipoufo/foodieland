@@ -24,7 +24,7 @@ const OneRecipe = () => {
             </div>
             {/* Part for food information */}
             <div className='w-full h-2/6 mt-3'>
-                <p className='text-lg font-bold'>Big and Juicy Wagyu Beef Cheeseburger</p>
+                <a href='/recipe-details' className='text-lg font-bold'>Big and Juicy Wagyu Beef Cheeseburger</a>
                 <div className='flex flex-row w-full justify-start mt-4'>
                     <div className="flex flex-row text-sm w-10/12 justify-between">
                         <div className="flex flex-row items-center p-2 w-1/2 rounded-3xl">

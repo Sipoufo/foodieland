@@ -2,6 +2,7 @@ import React from 'react';
 import { Routes, Route } from 'react-router-dom';
 import IndexComponents from "../components/index"
 import Home from "../components/home/home"
+import IndexRecipeDetails from '../components/recipeDetails';
 
 /**
  *  This function is a starting point of your router module
@@ -12,6 +13,7 @@ const Router = () => {
         <Routes>
             <Route path="/" element={<IndexComponents />}>
                 <Route index element={<Home />} />
+                <Route path="/recipe-details" element={<IndexRecipeDetails />} />
             </Route>
         </Routes>  
     )
