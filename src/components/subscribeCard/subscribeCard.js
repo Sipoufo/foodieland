@@ -7,7 +7,7 @@ const SubscribeCard = () => {
          *  Important:
          *      Translate : use for doing translations movements
          */
-        <div className='flex flex-row w-full overflow-hidden h-80 mt-24 justify-between bg-emerald-50 rounded-6xl'>
+        <div className='flex flex-row w-full overflow-hidden h-80 mt-32 justify-between bg-emerald-50 rounded-6xl'>
             {/* left picture */}
             <div className='w-3/12 hidden lg:flex'>
                 <img src={process.env.PUBLIC_URL + '/images/Foods/food0_2.png'} className='object-cover w-80 h-96 rotate-12 -translate-x-8 translate-y-40' alt='food' />

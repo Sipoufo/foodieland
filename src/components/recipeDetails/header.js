@@ -72,50 +72,55 @@ const Header = () => {
                     <img src={process.env.PUBLIC_URL + "/images/Foods/food12.png"} className='w-full h-full object-cover object-center' alt='FoodRecipe' />
                 </div>
                 {/* Food ingredients */}
-                <div className='hidden sm:flex flex-col w-4/12 rounded-3xl bg-emerald-100 p-6 '>
-                    <div className='flex w-full'>
-                        <h1 className='font-bold text-2xl'>Nutrition information</h1>
+                <div className='hidden sm:flex flex-col w-4/12 rounded-3xl bg-emerald-100 p-6 justify-between'>
+                    <div className='flex flex-col w-full'>
+                        <div className='flex w-full'>
+                            <h1 className='font-bold text-2xl'>Nutrition information</h1>
+                        </div>
+                        <div className='flex flex-col gap-3 text-sm mt-6'>
+                            <div className='flex w-full justify-between'>
+                                <span className='text-slate-500'>Chocolate</span>
+                                <span>100g</span>
+                            </div>
+                            <hr className='w-full border border-slate-300' />
+                            <div className='flex w-full justify-between'>
+                                <span className='text-slate-500'>Chocolate</span>
+                                <span>100g</span>
+                            </div>
+                            <hr className='w-full border border-slate-300' />
+                            <div className='flex w-full justify-between'>
+                                <span className='text-slate-500'>Chocolate</span>
+                                <span>100g</span>
+                            </div>
+                            <hr className='w-full border border-slate-300' />
+                            <div className='flex w-full justify-between'>
+                                <span className='text-slate-500'>Chocolate</span>
+                                <span>100g</span>
+                            </div>
+                            <hr className='w-full border border-slate-300' />
+                            <div className='flex w-full justify-between'>
+                                <span className='text-slate-500'>Chocolate</span>
+                                <span>100g</span>
+                            </div>
+                            <hr className='w-full border border-slate-300' />
+                            <div className='flex w-full justify-between'>
+                                <span className='text-slate-500'>Chocolate</span>
+                                <span>100g</span>
+                            </div>
+                            <hr className='w-full border border-slate-300' />
+                            <div className='flex w-full justify-between'>
+                                <span className='text-slate-500'>Chocolate</span>
+                                <span>100g</span>
+                            </div>
+                        </div>
                     </div>
-                    <div className='flex flex-col gap-4 mt-6'>
-                        <div className='flex w-full justify-between'>
-                            <span>Chocolate</span>
-                            <span>100g</span>
-                        </div>
-                        <hr className='w-full border border-slate-300' />
-                        <div className='flex w-full justify-between'>
-                            <span>Chocolate</span>
-                            <span>100g</span>
-                        </div>
-                        <hr className='w-full border border-slate-300' />
-                        <div className='flex w-full justify-between'>
-                            <span>Chocolate</span>
-                            <span>100g</span>
-                        </div>
-                        <hr className='w-full border border-slate-300' />
-                        <div className='flex w-full justify-between'>
-                            <span>Chocolate</span>
-                            <span>100g</span>
-                        </div>
-                        <hr className='w-full border border-slate-300' />
-                        <div className='flex w-full justify-between'>
-                            <span>Chocolate</span>
-                            <span>100g</span>
-                        </div>
-                        <hr className='w-full border border-slate-300' />
-                        <div className='flex w-full justify-between'>
-                            <span>Chocolate</span>
-                            <span>100g</span>
-                        </div>
-                        <hr className='w-full border border-slate-300' />
-                        <div className='flex w-full justify-between'>
-                            <span>Chocolate</span>
-                            <span>100g</span>
-                        </div>
+                    <div className='flex text-sm text-slate-500'>
+                        <p>adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
                     </div>
                 </div>
             </div>
             {/* Food description */}
-            <div className='flex text-sm mt-8 text-slate-400'>
+            <div className='flex text-sm mt-16 text-slate-400'>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
             </div>
         </div>

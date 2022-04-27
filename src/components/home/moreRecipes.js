@@ -3,14 +3,14 @@ import React from 'react';
 import { useTranslation } from 'react-i18next';
 
 // Files
-import OneRecipe from './oneRecipe'
+import RecipesRecommendation from '../recommandations/RecipesRecommendation';
 
 const MoreRecipes = () => {
     const {t} = useTranslation();
     return (
         <div className='flex w-full flex-col'>
             {/* Introduction part */}
-            <div className='flex w-full flex-row'>
+            <div className='flex w-full flex-row gap-10'>
                 <div className='w-1/2 flex justify-start'>
                     <h1 className='text-4xl font-bold'>{t('navbar.introductionMoreReipes')}</h1>
                 </div>
@@ -19,16 +19,7 @@ const MoreRecipes = () => {
                 </div>
             </div>
             {/* Recipes part */}
-            <div className='grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 sm:gap-8'>
-                <OneRecipe />
-                <OneRecipe />
-                <OneRecipe />
-                <OneRecipe />
-                <OneRecipe />
-                <OneRecipe />
-                <OneRecipe />
-                <OneRecipe />
-            </div>
+            <RecipesRecommendation />
         </div>
     )
 }

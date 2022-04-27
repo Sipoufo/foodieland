@@ -7,7 +7,7 @@ import Categories from './categories';//Few Categories
 import FewRecipes from './fewRecipes';//Few recipes
 import OurChef from './ourChef';//Call chef
 import Instagram from './instagram';//Instagram pages
-import SubscribeCard from './subscribeCard';// Subscription page
+import SubscribeCard from '../subscribeCard/subscribeCard';// Subscription page
 import MoreRecipes from './moreRecipes';
 
 /**
