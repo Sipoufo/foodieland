@@ -4,6 +4,7 @@ import { useTranslation } from 'react-i18next'; // Translate module
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'; // Use for add icons
 import { faFacebookF, faTwitter, faInstagram } from '@fortawesome/free-brands-svg-icons'; // Use for import different brands icons
 import { faBars } from '@fortawesome/free-solid-svg-icons'
+import { NavLink } from 'react-router-dom'; // Use for redirection with the router 
 
 /**
  * This function is use for create a Navigation bar
@@ -23,11 +24,11 @@ const Navbar = () => {
                 {/* navigation items */}
                 <div className='hidden sm:flex flex-col w-3/6 lg:w-2/5'>
                     <ul className='flex justify-between text-sm xl:text-lg'>
-                        <li>{t('navbar.home')}</li>
-                        <li>{t('navbar.recipes')}</li>
-                        <li>{t('navbar.blog')}</li>
-                        <li>{t('navbar.contact')}</li>
-                        <li>{t('navbar.aboutUs')}</li>
+                        <NavLink to='/'>{t('navbar.home')}</NavLink>
+                        <NavLink to='/'>{t('navbar.recipes')}</NavLink>
+                        <NavLink to='/blog-article'>{t('navbar.blog')}</NavLink>
+                        <NavLink to='/'>{t('navbar.contact')}</NavLink>
+                        <NavLink to='/'>{t('navbar.aboutUs')}</NavLink>
                     </ul>
                 </div>
 
