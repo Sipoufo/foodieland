@@ -12,7 +12,7 @@ import Footer from './footer/footer';
  */
 const IndexComponents = () => {
     return(
-        <div className='w-screen h-screen bg-background-full-screen scrollbar-none'>
+        <div className='w-screen h-screen max-w-[1520px] m-auto bg-background-full-screen scrollbar-none'>
             <NavBar />
             <Outlet />
             <Footer />

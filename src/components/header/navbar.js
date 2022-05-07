@@ -27,7 +27,7 @@ const Navbar = () => {
                         <NavLink to='/'>{t('navbar.home')}</NavLink>
                         <NavLink to='/'>{t('navbar.recipes')}</NavLink>
                         <NavLink to='/blog-article'>{t('navbar.blog')}</NavLink>
-                        <NavLink to='/'>{t('navbar.contact')}</NavLink>
+                        <NavLink to='/contact'>{t('navbar.contact')}</NavLink>
                         <NavLink to='/'>{t('navbar.aboutUs')}</NavLink>
                     </ul>
                 </div>

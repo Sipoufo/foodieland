@@ -43,8 +43,8 @@ const Header = () => {
                         </div>
                     </div>
                 </div>
-                <div className='hidden sm:flex flex-col w-3/12 justify-center items-center lg:items-end'>
-                    <div className='flex flex-col lg:flex-row w-5/6 lg:w-3/6 justify-center items-center gap-2'>
+                <div className='hidden sm:flex flex-col w-4/12 justify-center items-center lg:items-end'>
+                    <div className='flex flex-row w-full lg:w-3/6 justify-center items-center gap-2'>
                         {/* Print option */}
                         <div className='w-full lg:w-1/2 flex justify-center lg:justify-center'>
                             <div className='p-6 rounded-full flex justify-center bg-emerald-100'>
@@ -61,9 +61,9 @@ const Header = () => {
                 </div>
             </div>
             {/* video and ingredients */}
-            <div className='flex flex-row w-full justify-between h-128 mt-5 gap-6'>
+            <div className='flex flex-col sm:flex-row w-full justify-between mt-5 gap-6'>
                 {/* Food video */}
-                <div className='relative flex w-full sm:w-8/12 h-full rounded-3xl overflow-hidden'>
+                <div className='relative flex w-full sm:w-8/12 h-128  rounded-3xl overflow-hidden'>
                     <div className='absolute flex justify-center items-center w-full h-full'>
                         <div className='justify-center items-center flex p-8 bg-gray-100 opacity-80 rounded-full'>
                             <FontAwesomeIcon icon={faPlay} className='text-2xl h-4 w-4' />
@@ -72,7 +72,7 @@ const Header = () => {
                     <img src={process.env.PUBLIC_URL + "/images/Foods/food12.png"} className='w-full h-full object-cover object-center' alt='FoodRecipe' />
                 </div>
                 {/* Food ingredients */}
-                <div className='hidden sm:flex flex-col w-4/12 rounded-3xl bg-emerald-100 p-6 justify-between'>
+                <div className='flex flex-col w-full sm:w-4/12 rounded-3xl bg-emerald-100 p-6 justify-between'>
                     <div className='flex flex-col w-full'>
                         <div className='flex w-full'>
                             <h1 className='font-bold text-2xl'>Nutrition information</h1>

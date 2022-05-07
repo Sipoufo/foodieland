@@ -4,7 +4,8 @@ import IndexComponents from "../components/index"
 import Home from "../components/home/home"
 import IndexRecipeDetails from '../components/recipeDetails';
 import IndexBlogAndArticle from '../components/blogAndArticle';
-
+import IndexContact from '../components/contact';
+import IndexBlogPost from '../components/BlogPost';
 
 /**
  *  This function is a starting point of your router module
@@ -17,6 +18,8 @@ const Router = () => {
                 <Route index element={<Home />} />
                 <Route path="/recipe-details" element={<IndexRecipeDetails />} />
                 <Route path="/blog-article" element={<IndexBlogAndArticle />}/>
+                <Route path="/contact" element={<IndexContact />}/>
+                <Route path="/blog-post" element={<IndexBlogPost />}/>
             </Route>
         </Routes>  
     )

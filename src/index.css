@@ -24,3 +24,9 @@ code {
   -ms-overflow-style: none;
   scrollbar-width: none;
 }
+
+@layer base {
+  input {
+    @apply outline-none;
+  }
+}
