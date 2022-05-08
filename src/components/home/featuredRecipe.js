@@ -15,7 +15,7 @@ const FeaturedRecipe = () => {
          *      snap-center is used for center a active element to screen
          *      flex-shrink-0 use for ignore a flex parent
          */
-        <div className="flex-shrink-0 h-full lg:h-128 xl:h-160 snap-center">
+        <div className="flex-shrink-0 h-full lg:h-128 xl:h-160 2xl:h-[800px] snap-center">
             <div className='bg-sky-100 flex flex-row justify-center w-70vw h-full rounded-6xl overflow-hidden mx-5 snap-start'>
                 {/* Information about recipe */}
                 <div className='flex flex-col w-11/12 lg:w-1/2 h-full p-8'>

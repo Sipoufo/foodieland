@@ -13,13 +13,19 @@ import { NavLink } from 'react-router-dom'; // Use for redirection with the rout
  *  - list of navigation items
  *  - social logo
  */
-const Navbar = () => {
+const Navbar = ({setShowNavbar}) => {
     const { t } = useTranslation();
+
+    const ClickForShowNavbar= (e) => {
+        e.preventDefault();
+        setShowNavbar(true);
+    }
+    
     return(
         <div className='relative w-full border-b border-gray-400 p-8'>
             <div className='flex flex-row justify-between items-center pl-6'>
                 {/* Logo */}
-                <img className='w-36 sm:w-20 xl:w-40' src={process.env.PUBLIC_URL + '/images/Logos/logo_sm.png'} alt='logo' />
+                <img className='w-32 xl:w-40' src={process.env.PUBLIC_URL + '/images/Logos/logo_sm.png'} alt='logo' />
 
                 {/* navigation items */}
                 <div className='hidden sm:flex flex-col w-3/6 lg:w-2/5'>
@@ -44,7 +50,7 @@ const Navbar = () => {
                 {/* Menu items */}
                 <div className='flex flex-col sm:hidden'>
                     <ul className='flex'>
-                        <li><FontAwesomeIcon className='text-xl mx-3' icon={faBars} /></li>
+                        <li><button onClick={ClickForShowNavbar}><FontAwesomeIcon className='text-xl mx-3' icon={faBars} /></button></li>
                     </ul>
                 </div>
             </div>

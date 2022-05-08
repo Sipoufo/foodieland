@@ -27,7 +27,7 @@ const Contact = () => {
                             <label className="text-sm font-light">SUBJECT</label>
                             <input type="text" name="subject" className="w-full border border-gray-300 p-3 rounded-xl mt-2 font-light text-sm" placeholder="Enter subject" />
                         </div>
-                        <div className="flex flex-col w-full sm:w-6/">
+                        <div className="flex flex-col w-full sm:w-6/12">
                             <label className="text-sm font-light">ENQUIRY TYPE</label>
                             <select className="w-full border border-gray-300 p-3 rounded-xl mt-2 font-light text-sm bg-white">
                                 <option value="advertising">Advertising</option>
