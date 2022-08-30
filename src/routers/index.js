@@ -1,5 +1,6 @@
 import React from 'react';
 import { Routes, Route } from 'react-router-dom';
+
 import IndexComponents from "../components/index"
 import Home from "../components/home/home"
 import IndexRecipeDetails from '../components/recipeDetails';
